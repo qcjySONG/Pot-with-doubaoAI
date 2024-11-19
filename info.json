@@ -1,0 +1,23 @@
+{
+  "id": "plugin.com.TechDecryptor.volcengine",
+  "plugin_type": "translate",
+  "icon": "icon.svg",
+  "display": "豆包(英译中)",
+  "homepage": "https://github.com/qcjySONG",
+  "needs": [],
+  "language": {
+    "auto": "detect",
+    "de": "de",
+    "en": "en",
+    "es": "es",
+    "fr": "fr",
+    "it": "it",
+    "ja": "ja",
+    "ko": "ko",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "ru": "ru",
+    "zh_cn": "zh",
+    "zh_tw": "zh"
+  }
+}
