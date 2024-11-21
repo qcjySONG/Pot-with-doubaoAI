@@ -22,7 +22,7 @@ async function translate(text, from, to, options) {
         model: MODEL,
         messages: [
             { role: "system", content: "You are an expert in computer science, artificial intelligence, and computational bio-mathematics. Please translate the English text into Chinese, ensuring that the translation is professional, elegant, and fluent, avoiding the typical style of machine translation. Secondly, as an expert, you should be able to identify any formatting and typography issues in the original text and correct these to output in a better format. Finally, you need to identify any clearly irrelevant parts within the paragraph and automatically omit these sections to ensure coherence and smoothness in the translation. Please output only the translated text without providing explanations." },
-            { role: "user", content: text }
+            { role: "user", content: `Translate into Chinese ${text}` }
         ],
         stream: false
     };
